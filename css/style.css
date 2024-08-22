@@ -88,6 +88,9 @@ header {
   height: 200px;
   border-radius: 5px;
 }
+.card:hover {
+  background-color: hsla(230, 22%, 74%, 0.363);
+}
 
 #conteiner {
   display: flex;
@@ -185,6 +188,9 @@ header {
   width: 250px;
   height: 120px;
   border-radius: 5px;
+}
+.card-second:hover {
+  background-color: hsla(230, 22%, 74%, 0.363);
 }
 
 .page_over {

@@ -2,7 +2,6 @@
 
 // Fontes
 $fonte-principal:"Inter", sans-serif;
-$line-card: linear gradient( to right hsl(210, 78%, 56%),hsl(146, 68%, 55%));
 
 // Light Theme
 :root {
@@ -93,6 +92,9 @@ header {
     width: 250px;
     height: 200px;
     border-radius: 5px;
+    &:hover {
+        background-color: hsla(230, 22%, 74%, 0.363);
+    }
 }
 
 #conteiner {
@@ -193,6 +195,9 @@ header {
     width: 250px;
     height: 120px;
     border-radius: 5px;
+    &:hover {
+        background-color: hsla(230, 22%, 74%, 0.363);
+    }
 }
 
 .page_over {
